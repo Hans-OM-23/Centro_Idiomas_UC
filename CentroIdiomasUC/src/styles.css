@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global Styles: Centro de Idiomas Universidad Continental */
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.min.css";
+
+/* Estilos sobrios y minimalistas adicionales */
+:root {
+  --uc-brand: #a81c24;
+  --uc-brand-dark: #7a1218;
+  --uc-navy: #0f172a;
+}
+
+body {
+  letter-spacing: -0.01em;
+}
+
+/* Transiciones suaves para componentes y tarjetas */
+.card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08) !important;
+}
+
+/* Scroll suave */
+html {
+  scroll-behavior: smooth;
+}
